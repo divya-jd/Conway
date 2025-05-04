@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard - LifeScape</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #eef2f3, #8e9eab);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    h2 {
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
+      color: #2c3e50;
+    }
+
+    .admin-panel {
+      width: 90%;
+      max-width: 800px;
+      background-color: #ffffffcc;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      overflow-x: auto;
+    }
+
+    #user-list {
+      min-height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Admin Dashboard - Manage Users</h2>
+  <div id="user-list" class="admin-panel">
+    <!-- Dynamic user content goes here -->
+  </div>
+  <script src="js/admin.js"></script>
+</body>
+</html>

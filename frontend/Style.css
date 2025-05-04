@@ -1,0 +1,163 @@
+body {
+  background-image: url("bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+  margin: 20px 0;
+  font-size: 36px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.leftpart, .rightpart {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.leftpart {
+  max-width: 600px;
+}
+
+.rightpart {
+  max-width: 300px;
+}
+
+.grid-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.select {
+  padding: 8px;
+  font-size: 16px;
+}
+
+#button1 {
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#button1:hover {
+  background-color: #357ab8;
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+#generation {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+  margin: 10px 0;
+}
+
+#container {
+  text-align: center;
+  margin: 20px auto;
+}
+
+table {
+  width: 525px;
+  height: 525px;
+  border-collapse: collapse;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+tr, td {
+  border: 1px solid #888;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+td:hover {
+  background-color: #f0c674;
+}
+
+.HighLight {
+  background-color: #49cacc;
+}
+
+.buttonM {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.buttonM:hover {
+  background-color: #357ab8;
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+#JustButtons {
+  text-align: center;
+}
+
+a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input[type="submit"] {
+  border-radius: 8px;
+  background-color: #333;
+  color: white;
+  padding: 15px 32px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  display: block;
+  margin: 40px auto 0 auto;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
